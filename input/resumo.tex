@@ -1,0 +1,32 @@
+% https://cienciapratica.wordpress.com/2015/01/10/escrevendo-o-resumo-ou-%E2%80%9Cabstract%E2%80%9D-para-um-artigo/
+% resumo em português
+
+% Conforme a ABNT NBR 6022:2003, o resumo é elemento obrigatório, constituído de
+% uma sequência de frases concisas e objetivas e não de uma simples enumeração
+% de tópicos, não ultrapassando 250 palavras, seguido, logo abaixo, das palavras
+% representativas do conteúdo do trabalho, isto é, palavras-chave e/ou
+% descritores, conforme a NBR 6028. (\ldots) As palavras-chave devem figurar logo
+% tabaixo do resumo, antecedidas da expressão Palavras-chave:, separadas entre si por
+% ponto e finalizadas também por ponto.
+
+\renewcommand{\resumoname}{RESUMO}
+\begin{resumoumacoluna}
+	
+	\lipsum[1]
+	
+	\noindent
+	\textbf{Palavras-chave}: php. java. javascript. programação orientada a objetos
+	
+\end{resumoumacoluna}
+
+% resumo em inglês
+\renewcommand{\resumoname}{ABSTRACT}
+\begin{resumoumacoluna}
+	\begin{otherlanguage*}{english}
+		
+		\lipsum[2]
+		
+		\noindent
+		\textbf{Keywords}: php. java. javascript. object oriented programming
+	\end{otherlanguage*}  
+\end{resumoumacoluna}
